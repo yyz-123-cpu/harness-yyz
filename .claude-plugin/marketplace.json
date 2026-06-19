@@ -1,0 +1,17 @@
+{
+  "name": "yyz-123-cpu",
+  "owner": {
+    "name": "yyz-123-cpu"
+  },
+  "metadata": {
+    "description": "Harness ecosystem plugins — single-agent operating protocol for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "harness",
+      "version": "2.1.0",
+      "source": "./harness",
+      "description": "Universal Harness management — init, status, update. Initialize projects with context templates, check harness state, update learnings."
+    }
+  ]
+}
