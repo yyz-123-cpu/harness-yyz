@@ -69,4 +69,19 @@ Template files are in `templates/`:
 
 ## Integration
 
+## Obsidian Memory (v2.2)
+
+When Obsidian vault is configured (`D:\Obsidian Vault`), user info, preferences, and project context auto-persist to `Memory/` via MCP server. No manual "save" needed — assistant writes when info is clearly worth persisting.
+
+## Plugin Stack (v2.2)
+
+| Plugin | Status | Purpose |
+|--------|--------|---------|
+| superpowers | active | Skill dispatch + process guidance |
+| caveman | active | Token compression (-65%) |
+| browse | active | Browser automation |
+| claude-mem | active | Cross-session memory compression |
+| claude-code-harness | disabled | Hook conflicts in non-git projects |
+| academic-research-skills | active | Academic paper pipeline |
+
 This skill is the entry point for the Harness ecosystem. Pair it with the global `CLAUDE.md` (the Harness operating protocol) for full Phase 0-4 auto-orient, context management, and skill dispatch.

@@ -55,13 +55,14 @@ project/
 
 The harness works best with these plugins (auto-install recommended):
 
-| Plugin | Purpose |
-|--------|---------|
-| `superpowers` | Core skill dispatch engine |
-| `caveman` | Output token saving (65% reduction) |
-| `claude-code-harness` | Plan→Work→Review→Release delivery loop |
-| `claude-mem` | Advanced memory compression |
-| `browse` | Browser automation |
+| Plugin | Purpose | Status |
+|--------|---------|--------|
+| `superpowers` | Core skill dispatch engine | active |
+| `caveman` | Output token saving (65% reduction) | active |
+| `claude-mem` | Advanced memory compression | active |
+| `browse` | Browser automation | active |
+| `academic-research-skills` | Academic paper pipeline | active |
+| `claude-code-harness` | Plan→Work→Review→Release delivery loop | disabled (hook conflicts)
 
 ## License
 

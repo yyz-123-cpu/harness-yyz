@@ -40,7 +40,10 @@ This file documents the skill routing system in the Harness ecosystem.
 
 | Skill | Trigger |
 |-------|---------|
-| `claude-code-harness` | Plan→Work→Review→Release delivery loop, parallel agent dispatch |
+| `dispatching-parallel-agents` | 2+ independent tasks that can run concurrently |
+| `subagent-driven-development` | Complex multi-file implementation |
+| `executing-plans` | Following a written implementation plan |
+| `maestro` | Multi-agent orchestration with task decomposition |
 
 ## Database
 
